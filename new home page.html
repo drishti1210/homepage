@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS83ltPP-kzSiiD388f-H9owhhSKxw5othTXu1gIy-mzbY9eTLf&usqp=CAU" type="image/png" sizes="16x16">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Emblema One' rel='stylesheet'>
+
+<link rel="stylesheet" href="sty.css">
+</head>
+<body style="height:1500px">
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+	<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
+<div id="main">
+	 <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+</div>
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "white";
+}
+</script>
+   
+
+
+
+  <a class="navbar-brand" href="#">Women in STEM</a>
+  <form class="form-inline" action="/action_page.php">
+    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+    <button class="btn btn-success" type="submit"> <i class="fas fa-search"></i></button>
+  </form>
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#"><i class="fa fa-fw fa-home"></i>Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">About us</a>
+    </li>
+       <li class="nav-item">
+       	<div class="dropdown">
+      <button class="dropbtn"> Services<i class="fa fa-caret-down"></i></button>
+      <div class="dropdown-content">
+      	<a  href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+    </li>
+       <li class="nav-item">
+      <a class="nav-link" href="#">Portfolio</a>
+    </li>
+       <li class="nav-item">
+      <a class="nav-link" href="#">Blogs</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#"><i class="fa fa-fw fa-envelope"></i>Contact us</a>
+    </li>
+  </ul>
+
+  <div class="topnav-right" style="float: right;">
+    <a href="#search"><i class="fa fa-fw fa-envelope"></i>Sign in</a>
+    <a href="#about"><i class="fa fa-fw fa-user"></i>Profile</a>
+  </div>
+
+</nav>
+
+<div id="demo" class="carousel slide " data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+      <li data-target="#demo" data-slide-to="3"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://images.hdqwalls.com/wallpapers/women-magic-science-fiction-l9.jpg" alt=" images" width="500" height="500">
+      <div class="carousel-caption" style="color: #d41313; line-height: 100px; font-size: 40px; font-family:Audiowide;">
+        <h3>Science</h3>
+        <p>Science and everyday life cannot and should not be seprated -Roslind Franklin</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.formulateglobal.com/wp-content/uploads/women-in-tech-thegem-blog-default.jpg">
+      <div class="carousel-caption" style="color: #d41313; line-height: 100px; font-size: 35px; font-family:Audiowide;">
+        <h3>Technology</h3>
+        <p>Right now is a great time to be a women in tech, but there's not enough women in tech</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="https://cutewallpaper.org/21/industrial-engineering-wallpaper/Ingenieria-International-Women-In-Engineering-Day-Hd-.jpg" alt="images" width="500" height="500">
+      <div class="carousel-caption" style="color: #d41313; line-height: 100px; font-size: 40px;font-family:Audiowide;">
+        <h3>engineering</h3>
+        <p>women's are rocking in engineering too!!</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="https://previews.123rf.com/images/tiero/tiero1304/tiero130400230/19340649-portrait-of-woman-teacher-and-blackboard-background.jpg" alt="images" width="500" height="500">
+      <div class="carousel-caption" style="color: #d41313; line-height: 100px; font-size: 40px;font-family:Audiowide;  ">
+        <h3>Maths</h3>
+        <p>women in maths are amazing..</p>
+      </div>   
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+<div class="jumbotron jumbotron-fluid" style="height: 400px ;">
+  <div class="container container-fluid" id="main1" style="line-height: 50px;">
+    <h1 style="  font-family: 'Emblema One';"><u>Women in STEM</u></h1>
+    <p>Women in Science Techology Engineering Maths.When one Women helps another,amazing things can happen.Technology is all about us.</p><br>
+
+    <button class="btn btn-success btn-lg"> Join Us </button>
+    <div class="btn btn-success btn-lg"> Read more</div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-3"><u>heading 1</u></div>
+  <p class="col-sm-3"> Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, </p>
+  <div class="col-sm-3"><u>heading 2</u></div>
+   <p class="col-sm-3"> Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, </p>
+  <div class="col-sm-3"><u>heading 3</u></div>
+   <p class="col-sm-3"> Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, </p>
+  <div class="col-sm-3"><u>heading 4</u></div>
+   <p class="col-sm-3"> Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, </p>
+</div>
+<hr>
+<div class="row">
+<figure class="col-sm-4">
+	<img src="https://s27389.pcdn.co/wp-content/uploads/2019/10/retail-innovation-changing-tech-consumer-employee-demands-1024x440.jpeg" alt="tech image" width="400 px;" height="400px;" style="float: left;">
+</figure>
+<section class="col-md-8">
+	<article>
+		<h1>heading</h1>
+		<p> Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est,</p>
+	</article>
+</section>
+</div>
+</div>
+<hr>
+<div class="row">
+<section class="col-md-8">
+	<article>
+		<h1>heading</h1>
+		<p> Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est,</p>
+	</article>
+</section>
+<figure class="col-sm-4">
+	<img src="https://blog.hartman-technology.com/wp-content/uploads/2019/03/050318_LRR_MEN_WomenTech.jpg" alt="tech image" width="400 px;" height="400px;" style="float: right;">
+</figure>
+</div>
+<footer class="mainfooter" role="contentinfo">
+  <div class="footer-middle">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-6">
+        <!--Column1-->
+        <div class="footer-pad">
+          <h4>Heading 1</h4>
+          <ul class="list-unstyled">
+            <li><a href="#"></a></li>
+            <li><a href="#">Payment Center</a></li>
+            <li><a href="#">Contact Directory</a></li>
+            <li><a href="#">Forms</a></li>
+            <li><a href="#">News and Updates</a></li>
+            <li><a href="#">FAQs</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <!--Column1-->
+        <div class="footer-pad">
+          <h4>Heading 2</h4>
+          <ul class="list-unstyled">
+            <li><a href="#">Website Tutorial</a></li>
+            <li><a href="#">Accessibility</a></li>
+            <li><a href="#">Disclaimer</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Webmaster</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <!--Column1-->
+        <div class="footer-pad">
+          <h4>Heading 3</h4>
+          <ul class="list-unstyled">
+            <li><a href="#">Our Team</a></li>
+            <li><a href="#">Public Works</a></li>
+            <li><a href="#">Police Department</a></li>
+            <li><a href="#">Fire</a></li>
+            <li><a href="#">Member</a></li>
+            <li>
+              <a href="#"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    	<div class="col-md-3">
+    		<h4>Follow Us</h4>
+            <ul class="social-network social-circle">
+             <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+             <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+             <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+            </ul>				
+		</div>
+    </div>
+	<div class="row">
+		<div class="col-md-12 copy">
+			<p class="text-center">&copy; Copyright 2020 - Women in STEM.  All rights reserved.</p>
+		</div>
+	</div>
+
+
+  </div>
+  </div>
+</footer>
+
+</body>
+</html>
+
+
